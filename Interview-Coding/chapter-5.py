@@ -1,6 +1,10 @@
-a, b = 10, 20
-A, B = "Hiii", "Hello"
-print(a)
-print(b)
-print(A)
-print(B)
+# Factorial Number
+
+num = 6
+fact = 1
+
+
+for i in range(1, num+1):
+    fact*=i
+
+print(fact)

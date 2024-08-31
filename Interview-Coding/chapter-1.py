@@ -1,6 +1,8 @@
-# 1) Hello World
+# Swap number
 
-print("Hello World")
+a=10
+b=20
 
+a, b = b, a
 
-
+print(a, b)

@@ -1,7 +1,9 @@
-name = "Shubham"
-age = 25
-address = "Bangalore"
+# String Palindrome number
 
-print("I am : ", name)
+str = "HoH"
+strCopy = str[::-1]
 
-print("My age : ", age)
+if(str == strCopy):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
